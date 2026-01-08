@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🎬 Movie Explorer</h1>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Enter movie name">
+        <button onclick="searchMovie()">Search</button>
+    </div>
+
+    <select id="sort" onchange="sortMovies()">
+        <option value="">Sort By</option>
+        <option value="year">Year</option>
+        <option value="rating">Rating</option>
+    </select>
+
+    <div id="movieContainer"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
