@@ -1,2 +1,2 @@
 # MovieExplorer
-Movie Explorer from API calling.
+Movie Exploer and Recommendationfrom API calling.
